@@ -16,13 +16,11 @@ public class StudentConfig {
             Student matvey = new Student(
                     "Matvey",
                     "bestadapter@gmail.com",
-                    21,
                     LocalDate.of(2000, Month.OCTOBER, 3)
             );
             Student nikita = new Student(
                     "Nikita",
                     "bestadapter@gmail.com",
-                    21,
                     LocalDate.of(1999, Month.FEBRUARY, 12)
             );
             studentRepository.saveAll(
